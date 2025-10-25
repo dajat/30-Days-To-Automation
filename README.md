@@ -3,7 +3,7 @@
 
 I’m on a 30-day automation journey to build practical, hands-on projects and strengthen my skills. Each day, I’ll:
 
-- Build a new automation project 🔧
+- Build a new automation project 🔧 or two! 😉
 
 - Document what I learned 📚
 
