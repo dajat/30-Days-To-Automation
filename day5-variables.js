@@ -14,4 +14,3 @@ console.log('websiteURL:', websiteURL);
 console.log('loginAttempts:', loginAttempts);
 console.log ('testPassed:', testPassed);
 console.log('isLoggedIn:', isLoggedIn);
-
