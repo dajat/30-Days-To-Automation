@@ -17,7 +17,7 @@ I’m on a 30-day automation journey to build practical, hands-on projects and s
 | 2   | My Friend: The Terminal | Terminal Basics and Common Commands | ✅ Completed |
 | 3   | Git and GitHub | The Basics and Common Commands | ✅ Completed|
 | 4   | HTML/CSS | The Basics, Elements, and Attributes | ✅ Completed|
-| …   | Coming Soon | Coming Soon | Coming Soon|
+| 5   | JavaScript | Variables and Data Types |⏳ In Progress|
 | 30  | Stayed Tuned | Stay Tuned| Stay Tuned |
 
 Follow along and explore my projects as I grow my automation skills day by day!
