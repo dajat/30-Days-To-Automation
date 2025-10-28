@@ -25,7 +25,8 @@ By the end of these 30 days, I’ll have:
 | ✅ Day 3 | Git and GitHub Basics | Practicing using Git for version control and GitHub for adding all repositories to the cloud. |
 | ✅ Day 4 | HTML + CSS | Learning styling, layout, and design. |
 | ✅ Day 5 | JavaScript | Understanding variables, data types, and logic. |
-| 🔜 Day 6–30 | Coming Soon | Automation Tools | Selenium, Cypress, and more! |
+| ✅ Day 6 | JavaScript | Understanding operators and conditionals. |
+| 🔜 Day 7–30 | Coming Soon | Automation Tools | Selenium, Cypress, and more! |
 
 ---
 
