@@ -16,10 +16,21 @@
 // console.log(testUsers);
 
 //Objects - store data in key-value pairs
-let card = {
-    fullName: "Michael",
-    email: "testeremail@email.com",
-    phone: 5554565678,
-}
+// let card = {
+//     fullName: "Michael",
+//     email: "testeremail@email.com",
+//     phone: 5554565678,
+// }
 
-console.log(card.fullName); //find name using the property in the name
+// console.log(card.fullName); //find name using the property in the name
+// console.log(card["email"]);
+
+letTestUser1 = {
+    username: 'john_doe',
+    password: 'password1',
+    email: 'testemail@email.com',
+    role: 'user',
+    isActive: true
+};
+
+console.log(TestUser1.username);
