@@ -10,6 +10,7 @@ testUsers.push ('molly_square');
 browsers.push('safari');
 environments.push('dev');
 
+//Logging new testUsers
 console.log(testUsers);
 console.log(browsers);
 console.log(environments);
@@ -25,7 +26,6 @@ console.log(browsers[3])
 console.log(environments[2])
 
 //Creating Objects
-
 let QAuser = {
     username: "QAUser1",
     password: "password24",
@@ -74,6 +74,3 @@ console.log(testConfig.credentials.standardUsers[0]);
 //Adding include()
 testConfig.browsers.includes('safari') || testConfig.browsers.push('safari'); //safari is not included
 console.log(testConfig.browsers);
-
-
-
