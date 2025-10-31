@@ -25,12 +25,25 @@
 // console.log(card.fullName); //find name using the property in the name
 // console.log(card["email"]);
 
-letTestUser1 = {
-    username: 'john_doe',
-    password: 'password1',
-    email: 'testemail@email.com',
-    role: 'user',
-    isActive: true
-};
+// let TestUser1 = {
+//     username: 'john_doe',
+//     password: 'password1',
+//     email: 'testemail@email.com',
+//     role: 'user',
+//     isActive: true
+// };
 
-console.log(TestUser1.username);
+// console.log(TestUser1.username);
+// console.log(TestUser1.isActive);
+
+//Test Configs - object with arrays annd nested object inside
+let testConfig = {
+    baseURL: 'https://testapp.com',              //string
+    browsers: ['chronium', 'firefox', 'webkit'], //array
+    credentails: {
+        admin: { username: 'admin', password: 'admin123'} //nested object
+    }
+}
+
+console.log(testConfig.browsers[2]);
+console.log(testConfig.credentails.admin.username);
