@@ -4,9 +4,9 @@ document.addEventListener("DOMContentLoaded", () => {
   const changeColorBtn = document.getElementById("changeColorBtn");
   const changeTextBtn = document.getElementById("changeTextBtn");
   const addItemBtn = document.getElementById("addItemBtn");
-  const TypesofQATestingList = document.querySelector("#TypesofQATestingList");
+  const QATestingList = document.querySelector("#QATestingList");
 
-  const colors = ["#A3D9FF", "#FFB6C1", "#B19CD9", "#A0E7E5"];
+  const colors = ["#A3D9FF", "#FFB6C1", "#B19CD9", "#A0E7E5", "rgba(117, 18, 171, 0.27)"];
   const messages = [
     "You are learning QA Automation with consistent practice!",
     "Keep pushing you'll get better with Automation each day 💪",
@@ -29,6 +29,6 @@ document.addEventListener("DOMContentLoaded", () => {
   addItemBtn.addEventListener("click", () => {
     const newItem = document.createElement("li");
     newItem.textContent = "New QA Skill Added!";
-    qaList.appendChild(newItem);
+    QATestingList.appendChild(newItem);
   });
 });
