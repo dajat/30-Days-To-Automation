@@ -5,13 +5,29 @@ document.addEventListener("DOMContentLoaded", () => {
   const changeTextBtn = document.getElementById("changeTextBtn");
   const addItemBtn = document.getElementById("addItemBtn");
   const QATestingList = document.querySelector("#QATestingList");
+  const refreshMotivationBtn = document.getElementById("refreshMotivationBtn");
 
   const colors = ["#A3D9FF", "#FFB6C1", "#B19CD9", "#A0E7E5", "rgba(117, 18, 171, 0.27)"];
-  const messages = [
-    "You are learning QA Automation with consistent practice!",
-    "Keep pushing you'll get better with Automation each day 💪",
-    "Every click is a step closer to mastery!"
+  
+   const headers = [
+    "QA Automation Rocks 🚀",
+    "Keep Going — Automation Awaits 🔧",
+    "<em>Day by Day</em>, Test by Test!",
+    "You're <strong>Crushing</strong> Your Automation Goals! 💪"
   ];
+
+  const messages = [
+    "<strong>You are learning QA Automation</strong> with consistent practice!",
+    "<i>Keep pushing you'll get better with Automation each day 💪</i>",
+    "<em>Every click</em> is a step closer to mastery!</em>"
+  ];
+
+  //Change Header, background, and paragraph
+  refreshMotivationBtn.addEventListener("click", () => {
+    const randomHeader = headers[Math.floor(Math.random() * headers.length)];
+
+    headerText.innerHTML = randomHeader;
+  });
 
   // Change background color
   changeColorBtn.addEventListener("click", () => {
@@ -22,13 +38,13 @@ document.addEventListener("DOMContentLoaded", () => {
   // Change paragraph text
   changeTextBtn.addEventListener("click", () => {
     const randomMessage = messages[Math.floor(Math.random() * messages.length)];
-    paragraphText.textContent = randomMessage;
+    paragraphText.innerHTML = randomMessage;
   });
 
   // Add new list item
   addItemBtn.addEventListener("click", () => {
     const newItem = document.createElement("li");
-    newItem.textContent = "New QA Skill Added!";
+    newItem.innerHTML = "New QA Skill Added!";
     QATestingList.appendChild(newItem);
   });
 });
