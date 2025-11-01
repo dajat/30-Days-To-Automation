@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Event Handling for Automation</title>
+    <style>
+      .box {
+        width: 150px;
+        height: 150px;
+        background-color: lightgray;
+        text-align: center;
+        line-height: 150px;
+        margin-bottom: 10px;
+      }
+      .log {
+        border: 1px solid #ccc;
+        height: 100px;
+        overflow-y: scroll;
+        padding: 5px;
+        font-family: monospace;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Event Handling for Automation</h1>
+
+    <div id="clickBox" class="box">Click Me</div>
+    <div id="hoverBox" class="box">Hover Over Me</div>
+
+    <button id="resetBtn">Reset</button>
+    <button id="simulateBtn">Simulate</button>
+
+    <div id="eventLog" class="log"></div>
+
+    <script src="day10_event.js"></script>
+  </body>
+</html>
