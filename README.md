@@ -18,15 +18,18 @@ By the end of these 30 days, I’ll have:
 
 ## 📅 Daily Progress
 
-| Day | Focus Area | Description |
-|-----|---------|--------------|
-| ✅ Day 1 | Environment Setup | Setting up the environments and best use of practice. |
-| ✅ Day 2 | Terminal Basics | Using and understanding the Terminal. |
-| ✅ Day 3 | Git and GitHub Basics | Practicing using Git for version control and GitHub for adding all repositories to the cloud. |
-| ✅ Day 4 | HTML + CSS | Learning styling, layout, and design. |
-| ✅ Day 5 | JavaScript | Understanding variables, data types, and logic. |
-| ✅ Day 6 | JavaScript | Understanding operators and conditionals. |
-| 🔜 Day 7–30 | Coming Soon | Automation Tools | Selenium, Cypress, and more! |
+| Day | Focus Area | Description | Status |
+|-----|---------|--------------|-------|
+| ✅ Day 1 | Environment Setup | Setting up the environments and best use of practice.|  ✅ Completed |
+| ✅ Day 2 | Terminal Basics | Using and understanding the Terminal.|  ✅ Completed |
+| ✅ Day 3 | Git and GitHub Basics | Practicing using Git for version control and GitHub for adding all repositories to the cloud.|  ✅ Completed |
+| ✅ Day 4 | HTML + CSS | Learning styling, layout, and design. |  ✅ Completed |
+| ✅ Day 5 | JavaScript | Understanding variables, data types, and logic. |  ✅ Completed |
+| ✅ Day 6 | JavaScript | Understanding operators and conditionals. |  ✅ Completed |
+| ✅ Day 7 | JavaScript | Understanding loops and functions. | ✅ Completed |
+| ✅ Day 8 | JavaScript | Understanding arrays and objects. | ✅ Completed |
+| ✅ Day 9 | DOM Manipulation | Interacting with webpages. | ⏳ In Progress |
+| 🔜 Day 10–30 | Coming Soon | Automation Tools | PlayWright, and more! |
 
 ---
 
