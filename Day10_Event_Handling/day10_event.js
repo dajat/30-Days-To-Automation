@@ -17,7 +17,7 @@ function logEvent(message) {
 
 // Click Event
 clickBox.addEventListener("click", () => {
-  clickCount++;
+  clickCount++; //how many times to click
   clickBox.style.backgroundColor = "lightgreen";
   clickBox.textContent = `Clicked ${clickCount} time(s)`;
   logEvent(`Box clicked ${clickCount} time(s)`);
