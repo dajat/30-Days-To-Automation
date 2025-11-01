@@ -28,8 +28,9 @@ By the end of these 30 days, I’ll have:
 | ✅ Day 6 | JavaScript | Understanding operators and conditionals. |  ✅ Completed |
 | ✅ Day 7 | JavaScript | Understanding loops and functions. | ✅ Completed |
 | ✅ Day 8 | JavaScript | Understanding arrays and objects. | ✅ Completed |
-| ✅ Day 9 | DOM Manipulation | Interacting with webpages. | ⏳ In Progress |
-| 🔜 Day 10–30 | Coming Soon | Automation Tools | PlayWright, and more! |
+| ✅ Day 9 | DOM Manipulation | Interacting with webpages. | ✅ Completed |
+| ✅ Day 10 | Event Handling | Interacting with webpages to respond. | ⏳ In Progress |
+| 🔜 Day 11–30 | Coming Soon | Automation Tools | PlayWright, and more! |
 
 ---
 
