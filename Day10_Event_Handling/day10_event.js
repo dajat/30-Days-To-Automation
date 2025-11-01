@@ -25,13 +25,13 @@ clickBox.addEventListener("click", () => {
 
 // Mouse Over Event
 hoverBox.addEventListener("mouseenter", () => {
-  hoverBox.style.backgroundColor = "yellow";
+  hoverBox.style.backgroundColor = "lightblue";
   hoverBox.textContent = "Mouse Over!";
   logEvent("Mouse entered hover box");
 });
 
 hoverBox.addEventListener("mouseleave", () => {
-  hoverBox.style.backgroundColor = "lightgray";
+  hoverBox.style.backgroundColor = "lightblue";
   hoverBox.textContent = "Hover Over Me";
   logEvent("Mouse left hover box");
 });
