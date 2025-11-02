@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Day 10 - Event Handling Practice</title>
+    <style>
+      body { font-family: Arial, sans-serif; margin: 40px; }
+      .box { width: 120px; height: 120px; background: lightgray; 
+             text-align: center; line-height: 120px; margin: 10px; display: inline-block; }
+      #log { border: 1px solid #ccc; height: 120px; overflow-y: scroll; padding: 5px; }
+      button { margin: 5px; padding: 8px 16px; cursor: pointer; }
+    </style>
+  </head>
+  <body>
+    <h2>Event Handling Practice</h2>
+
+    <div id="clickBox" class="box">Click Me</div>
+    <div id="hoverBox" class="box">Hover Me</div>
+    <div id="doubleBox" class="box">Double Click Me</div>
+    <input type="text" id="usernameInput" placeholder="Type your username" />
+
+    <br/>
+    <button id="resetBtn">Reset</button>
+    <button id="simulateBtn">Simulate Events</button>
+    <button id="formSubmitBtn">Submit</button>
+
+    <h3>Event Log</h3>
+    <div id="log"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
