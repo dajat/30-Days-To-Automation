@@ -25,10 +25,15 @@ const testConfig = {
 const {baseURL, timeout} = testConfig;
 console.log(baseURL, timeout);
 
-//Spread Operator (...)
+//Spread Operator and merge objects(...)
 const basicTests =['login', 'logout'];
 const advancedTests =['api_test', 'performance_test'];
 
 //Short Hand
 const AllTests = [...basicTests, ...advancedTests, 'securityTests'];
 console.log(AllTests);
+
+//Merge objects
+const defaultConfig = {timeout: 30000, retries: 3};
+const customConfig = {...defaultConfig, browser: 'firefox'};
+console.log(customConfig);
