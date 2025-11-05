@@ -70,4 +70,3 @@ const user = {
 
 console.log(user.login());
 console.log(user.logout());
-
