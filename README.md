@@ -30,8 +30,9 @@ By the end of these 30 days, I’ll have:
 | ✅ Day 8 | JavaScript | Understanding arrays and objects. | ✅ Completed |
 | ✅ Day 9 | DOM Manipulation | Interacting with webpages. | ✅ Completed |
 | ✅ Day 10 | Event Handling | Interacting with webpages to respond. | ✅ Completed  |
-| ✅ Day 11 | Modern JavaScript (ES6+) | Understandinfg the modern Javascript syntax for shorter and cleaner code. | ⏳ In Progress |
-| 🔜 Day 12–30 | Coming Soon | Automation Tools | PlayWright, and more! |
+| ✅ Day 11 | Modern JavaScript (ES6+) | Understanding the modern Javascript syntax for shorter and cleaner code. | ✅ Completed |
+| ✅ Day 12 | PlayWright | Installation and Setup of PlayWright. | ⏳ In Progress |
+| 🔜 Day 13–30 | Coming Soon | Stay Tuned! | Coming Soon! |
 
 ---
 
@@ -41,7 +42,8 @@ By the end of these 30 days, I’ll have:
 - **HTML / CSS**
 - **Git & GitHub**
 - **VS Code**
-- **Automation Frameworks (Upcoming)**
+- **MacOS**
+- **Automation Framework: PlayWright**
 
 ---
 
@@ -66,7 +68,7 @@ Feel free to fork the repo and try the challenges yourself!
 ## 🏁 Final Goal
 
 By the end of 30 days, I aim to:
-- Complete multiple small automation projects.
+- Complete 2 automation projects.
 - Strengthen my testing portfolio.
 - Share templates, scripts, and learnings to help others start their automation journey too.
 
