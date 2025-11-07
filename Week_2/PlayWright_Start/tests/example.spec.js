@@ -1,18 +1,21 @@
-// @ts-check
+// @ts-check -- imports test runner and assertion library
 import { test, expect } from '@playwright/test';
 
+// Waits for browser to load. Async waits from the browser to load and await waits until a task is finished running.
 test('has title', async ({ page }) => {
   await page.goto('https://playwright.dev/');
 
-  // Expect a title "to contain" a substring.
+  // Expect a title "to contain" a substring. Expect is waiting to see that the page has a specific name.
   await expect(page).toHaveTitle(/Playwright/);
 });
 
-test('get started link', async ({ page }) => {
+//Navigating to the get started URL. Page allows each test to get a clean start while running each test
+test('verify that the Docs link opens the Documentation page', async ({ page }) => { //Update the title name from get started link.
   await page.goto('https://playwright.dev/');
 
   // Click the get started link.
-  await page.getByRole('link', { name: 'Get started' }).click();
+  await page.getByRole('link', { name: 'Docs' }).click(); //Updated the locator and expectation
+  await expect(page).toHaveURL(/docs/);
 
   // Expects page to have a heading with the name of Installation.
   await expect(page.getByRole('heading', { name: 'Installation' })).toBeVisible();
