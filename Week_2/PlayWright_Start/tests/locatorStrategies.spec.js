@@ -38,9 +38,9 @@ test('comprehensive locator strategies', async ({ page }) => {
   console.log('✅ XPath locators working');
 
   //    5. By CSS Selector
-  console.log('\n--- By CSS Selector ---');
-  const titleByCSS = page.locator('div.flex.justify-between.items-center small.text-gray-400');
-  await expect(titleByCSS).toBeVisible();
-  console.log('✅ CSS Selectors locators working');
+console.log('\n--- By CSS Selector ---');
+const titleByCSS = page.locator('div.flex.justify-between.items-center small.text-gray-400');
+await expect(titleByCSS).toBeVisible();
+console.log('✅ CSS Selectors locators working');
 });
 
