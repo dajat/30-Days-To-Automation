@@ -32,8 +32,9 @@ By the end of these 30 days, I’ll have:
 | ✅ Day 10 | Event Handling | Interacting with webpages to respond. | ✅ Completed  |
 | ✅ Day 11 | Modern JavaScript (ES6+) | Understanding the modern Javascript syntax for shorter and cleaner code. | ✅ Completed |
 | ✅ Day 12 | PlayWright | Installation and Setup of PlayWright. | ✅ Completed |
-| ✅ Day 13 | PlayWright | Finding locators and selectors in PlayWright. | ⏳ In Progress |
-| 🔜 Day 14–30 | Coming Soon | Stay Tuned! | Coming Soon! |
+| ✅ Day 13 | PlayWright | Finding locators and selectors in PlayWright. | ✅ Completed  |
+| ✅ Day 14 | Project 1 Kickoff | Starting my first automation project with PlayWright. | ⏳ In Progress  |
+| 🔜 Day 15–30 | Coming Soon | Stay Tuned! | Coming Soon! |
 
 ---
 
