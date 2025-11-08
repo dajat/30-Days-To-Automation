@@ -21,6 +21,7 @@ test('verify that the Docs link opens the Documentation page', async ({ page }) 
   await expect(page.getByRole('heading', { name: 'Installation' })).toBeVisible();
 });
 
+//PlayWright Commands (Go to playwright.dev for more info)
 // // npx playwright test
 //     Runs the end-to-end tests.
 
@@ -38,6 +39,9 @@ test('verify that the Docs link opens the Documentation page', async ({ page }) 
 
 //   npx playwright codegen
 //     Auto generate tests with Codegen.
+
+// npx playwright show-report
+// Runs the report for the test
 
 // We suggest that you begin by typing:
 
