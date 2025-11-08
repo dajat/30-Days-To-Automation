@@ -37,7 +37,7 @@ test('Day 13 - Locators and Selectors Practice', async ({ page }) => {
     await expect(overview).toBeVisible();
 
     //CSS Selector
-    const balance = page.locator('flex justify-between items-center small.text-gray-400');
+    const balance = page.locator('.flex.justify-between.items-center small.text-gray-400');
     await expect(balance).toBeVisible();
     console.log("✅ CSS locator is working");
 });
