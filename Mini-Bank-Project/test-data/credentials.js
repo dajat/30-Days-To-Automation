@@ -1,0 +1,1 @@
+//stores variables like credentials and URLs separately, keeping your code clean.

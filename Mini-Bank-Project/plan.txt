@@ -1,0 +1,24 @@
+mini-bank-playwright
+│
+├── pages/           → store all page classes (locators & actions)
+├── tests/           → store test files (landing, login, dashboard)
+├── test-data/       → store credentials & test data
+├── screenshots/     → save screenshots from test runs
+├── playwright.config.js
+└── package.json
+
+mini-bank-playwright/
+├─ pages/
+│  ├─ LandingPage.js
+│  ├─ LoginPage.js
+│  └─ DashboardPage.js
+├─ tests/
+│  ├─ landing.spec.js
+│  ├─ login.spec.js
+│  └─ dashboard.spec.js
+├─ test-data/
+│  └─ credentials.js
+├─ screenshots/
+│  └─ (generated)
+├─ playwright.config.js  (use default html reporter, trace on-first-retry)
+└─ package.json

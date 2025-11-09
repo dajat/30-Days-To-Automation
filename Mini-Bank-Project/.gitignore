@@ -1,0 +1,10 @@
+
+# Playwright
+
+// local files that are not committed or tracked on repository
+node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth/
