@@ -1,7 +1,6 @@
 # 🚀 30 Days to Automation
 
-Welcome to my **30-Day Automation Journey** — a personal project where I document my daily progress as I learn **PlayWright**, **JavaScript**, **HTML/CSS**, and more!  
-This challenge is all about consistency, growth, and building real-world skills step by step. 🌱
+Welcome to my **30-Day Automation Journey** — a personal project where I document my daily progress as I learn **PlayWright**, **JavaScript**, **HTML/CSS**, and more! This challenge is all about consistency, growth, and building real-world skills step by step. 🌱
 
 ---
 
