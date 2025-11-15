@@ -34,8 +34,9 @@ By the end of these 30 days, I’ll have:
 | ✅ Day 12 | PlayWright | Installation and Setup of PlayWright. | ✅ Completed |
 | ✅ Day 13 | PlayWright | Finding locators and selectors in PlayWright. | ✅ Completed  |
 | ✅ Day 14 | Project 1 Kickoff | Setup the structure for my automation project with PlayWright. | ✅ Completed  |
-| ✅ Day 15 | PrlayWright | Mastering navigation and assertions in PlayWright. | ⏳ In Progress  |
-| 🔜 Day 16–30 | Coming Soon | Stay Tuned! | Coming Soon! |
+| ✅ Day 15 | PlayWright | Mastering navigation and assertions in PlayWright. | ✅ Completed  |
+| ✅ Day 16 | PlayWright | Working with forms in PlayWright. | ⏳ In Progress  |
+| 🔜 Day 17–30 | Coming Soon | Stay Tuned! | Coming Soon! |
 
 ---
 
