@@ -22,7 +22,7 @@ await expect(page).toHaveURL('https://mini-bank.testamplify.com/dashboard');
 
 console.log('Step 4: Navigate to Transactions')
 await page.waitForLoadState("networkidle");
-const TransactionBtn = page.locator("//a[@href='/dashboard/transaction']");
+const TransactionBtn = page.getByRole('link', { name: 'Transactions' });
 await TransactionBtn.click();
 await expect(page).toHaveURL('https://mini-bank.testamplify.com/dashboard/transactions');
 
