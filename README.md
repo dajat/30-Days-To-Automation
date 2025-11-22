@@ -35,8 +35,9 @@ By the end of these 30 days, I’ll have:
 | ✅ Day 14 | Project 1 Kickoff | Setup the structure for my automation project with PlayWright. | ✅ Completed  |
 | ✅ Day 15 | PlayWright | Mastering navigation and assertions in PlayWright. | ✅ Completed  |
 | ✅ Day 16 | PlayWright | Working with forms in PlayWright. | ✅ Completed  |
-| ✅ Day 17 | PlayWright | Waits & Timeouts in PlayWright. | ⏳ In Progress  |
-| 🔜 Day 18–30 | Coming Soon | Stay Tuned! | Coming Soon! |
+| ✅ Day 17 | PlayWright | Waits & Timeouts in PlayWright. | ✅ Completed |
+| ✅ Day 18 | PlayWright | Screenshots and Videos in PlayWright. | ⏳ In Progress  |
+| 🔜 Day 19–30 | Coming Soon | Stay Tuned! | Coming Soon! |
 
 ---
 
