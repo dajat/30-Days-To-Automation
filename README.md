@@ -64,8 +64,7 @@ By the end of these 30 days, I’ll have:
 
 ## 🌟 How to Follow Along
 
-You can follow this journey right here on GitHub — I’ll update my progress daily.  
-Feel free to fork the repo and try the challenges yourself!
+You can follow this journey right here on GitHub — I’ll update my progress daily.
 
 📬 If you’re also in QA or automation, let’s connect and grow together.
 
@@ -76,7 +75,6 @@ Feel free to fork the repo and try the challenges yourself!
 By the end of 30 days, I aim to:
 - Complete 2 automation projects.
 - Strengthen my testing portfolio.
-- Share templates, scripts, and learnings to help others start their automation journey too.
 
 ---
 
