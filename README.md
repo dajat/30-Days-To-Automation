@@ -36,8 +36,9 @@ By the end of these 30 days, I’ll have:
 | ✅ Day 15 | PlayWright | Mastering navigation and assertions in PlayWright. | ✅ Completed  |
 | ✅ Day 16 | PlayWright | Working with forms in PlayWright. | ✅ Completed  |
 | ✅ Day 17 | PlayWright | Waits & Timeouts in PlayWright. | ✅ Completed |
-| ✅ Day 18 | PlayWright | Screenshots and Videos in PlayWright. | ⏳ In Progress  |
-| 🔜 Day 19–30 | Coming Soon | Stay Tuned! | Coming Soon! |
+| ✅ Day 18 | PlayWright | Screenshots and Videos in PlayWright. | ✅ Completed  |
+| ✅ Day 19 | PlayWright | Page Object Model PlayWright. | ⏳ In Progress  |
+| 🔜 Day 20–30 | Coming Soon | Stay Tuned! | Coming Soon! |
 
 ---
 
