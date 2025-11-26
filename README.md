@@ -39,7 +39,7 @@ By the end of these 30 days, I’ll have:
 | ✅ Day 18 | PlayWright | Screenshots and Videos in PlayWright. | ✅ Completed  |
 | ✅ Day 19 | PlayWright | Page Object Model in PlayWright. | ✅ Completed  |
 | ✅ Day 20 | PlayWright | Page Object Model Framework Build in PlayWright. | ⏳ In Progress  |
-| 🔜 Day 20–30 | Coming Soon | Stay Tuned! | Coming Soon! |
+| 🔜 Day 21–30 | Coming Soon | Stay Tuned! | Coming Soon! |
 
 ---
 
