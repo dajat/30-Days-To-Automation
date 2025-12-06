@@ -1,0 +1,22 @@
+{
+  "name": "30daystoautomation",
+  "version": "1.0.0",
+  "description": "Welcome to my **30-Day Automation Journey** — a personal project where I document my daily progress as I learn **PlayWright**, **JavaScript**, **HTML/CSS**, and more! This challenge is all about consistency, growth, and building real-world skills step by step. 🌱",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dajat/30DaysToAutomation.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dajat/30DaysToAutomation/issues"
+  },
+  "homepage": "https://github.com/dajat/30DaysToAutomation#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.57.0",
+    "@types/node": "^24.10.1"
+  }
+}
