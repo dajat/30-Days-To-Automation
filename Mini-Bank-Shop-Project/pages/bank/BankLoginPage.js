@@ -6,7 +6,7 @@ export class BankLoginPage {
     this.loginBtn = page.locator('//a[@href="/login"]');
     this.email = page.locator('//input[@placeholder="you@example.com"]');
     this.password = page.locator('//input[@placeholder="Enter your password"]');
-    this.login = page.locator('//button[@type="submit"]');
+    this.loginPage = page.locator('//button[@type="submit"]');
 
     }
 
@@ -17,7 +17,7 @@ async goto () {
     }
 
     //Logging Into Bank Account
-async login ({email, password}) {
+async loginPage ({email, password}) {
         await this.email.fill(email);
         await this.password.fill(password);
         await this.login.click()
