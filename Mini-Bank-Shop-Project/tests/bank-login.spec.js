@@ -1,28 +1,21 @@
-// @ts-check
-import { test, expect } from '@playwright/test';
-import { BankLoginPage } from '../pages/bank/BankLoginPage.js';
-import { DashboardLoginPage } from '../pages/bank/DashboardLoginPage.js';
-import { bankUsers } from '../test-data/credentials.js';
+import { test, expect } from '../fixtures/test-with-logger.js';
+import { BankLoginPage } from '../../pages/bank/BankLoginPage.js';
+import { DashboardPage } from '../../pages/bank/DashboardPage.js';
+import { bankUsers } from '../../test-data/credentials.js';
 
-test.describe('Bank - Logging In', () => {
-
+test.describe('Mini Bank – Data Driven Login', () => {
   for (const u of bankUsers) {
-    test(`${u.email}`, async ({ page }) => {
-
+    test(`login test for ${u.email}`, async ({ page }) => {
       const login = new BankLoginPage(page);
       await login.goto();
-      console.log('✅ Successful Navigation')
+      await login.login({ email: u.email, password: u.password });
 
       if (u.expectSuccess) {
-        const dash = new DashboardLoginPage(page);
+        const dash = new DashboardPage(page);
         await dash.assertLoaded();
       } else {
-        // Could check error message too
         await expect(page).toHaveURL(/\/login/);
-        console.log('✅ Successful and Failed Login')
       }
     });
   }
-
 });
-
