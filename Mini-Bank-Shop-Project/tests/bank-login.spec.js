@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
-import { BankLoginPage } from '../../pages/bank/BankLoginPage.js';
-import { DashboardPage } from '../../pages/bank/DashboardLoginPage.js';
-import { bankUsers } from '../../test-data/credentials.js';
+import { BankLoginPage } from '../pages/bank/BankLoginPage.js';
+import { DashboardPage } from '../pages/bank/DashboardLoginPage.js';
+import { bankUsers } from '../test-data/credentials.js';
 
 test.describe('Mini Bank – Data Driven Login', () => {
   for (const u of bankUsers) {

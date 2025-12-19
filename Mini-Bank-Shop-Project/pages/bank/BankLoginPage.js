@@ -17,10 +17,9 @@ async goto () {
     }
 
     //Logging Into Bank Account
-    async login ({email, password}) {
+async login ({email, password}) {
         await this.email.fill(email);
         await this.password.fill(password);
         await this.login.click()
-    }
-    
-    }
+    };
+  }
