@@ -4,4 +4,7 @@ export const customers = [
     { first: 'Cora',  last: 'Diaz',    street: '5 Pine Rd',   city: 'Macon',   state: 'Georgia', zip: '31201', phone: '4785550300', email: 'cora@yopmail.com' },
     { first: 'Dee',   last: 'King',    street: '7 Elm Blvd',  city: 'Athens',  state: 'Georgia', zip: '30601', phone: '7065550400', email: 'dee@yopmail.com' },
     { first: 'Evan',  last: 'Stone',   street: '9 Lake Dr',   city: 'Augusta', state: 'Georgia', zip: '30901', phone: '7065550500', email: 'evan@yopmail.com' },
+    { first: 'John',  last: 'Cain',    street: '10 Apple Ct', city: 'Macon',   state: 'Georgia', zip: '31201', phone: '4785556857', email: 'john@yopmail.com'},
+    { first: 'Lacey',  last: 'Martin',    street: '25 Apple Ct', city: 'Macon',   state: 'Georgia', zip: '31201', phone: '4785556237', email: 'lacey@yopmail.com'},
+
   ];

@@ -1,1 +1,1 @@
-export const deposits = [1000, 2500, 5000, 7500, 10000];
+export const deposits = [1000, 2500, 3500, 4500, 4700, 5000, 7500, 10000];
