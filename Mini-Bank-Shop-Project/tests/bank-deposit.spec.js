@@ -4,7 +4,7 @@ import { DashboardPage } from '../pages/bank/DashboardPage.js';
 import { bankUsers } from '../test-data/credentials.js';
 import { deposits } from '../test-data/deposits.js';
 
-test('Bank: login and verify transactions (POM)', async ({ page }) => {
+test('Bank: login', async ({ page }) => {
   // Login
 const valid = bankUsers.find(u => u.expectSuccess);
   const login = new BankLoginPage(page);
@@ -16,7 +16,7 @@ const valid = bankUsers.find(u => u.expectSuccess);
 
 });
 
-test('Bank: 5 deposits for first valid user', async ({ page }) => {
+test('Bank: Deposits', async ({ page }) => {
   const valid = bankUsers.find(u => u.expectSuccess);
   const login = new BankLoginPage(page);
   await login.goto();

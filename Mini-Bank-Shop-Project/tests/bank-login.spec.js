@@ -3,7 +3,7 @@ import { BankLoginPage } from '../pages/bank/BankLoginPage.js';
 import { DashboardPage } from '../pages/bank/DashboardPage.js';
 import { bankUsers } from '../test-data/credentials.js';
 
-test.describe('Mini Bank: Data Driven Login', () => {
+test.describe('Mini Bank: Data Driven Test', () => {
   for (const u of bankUsers) {
     test(`login test for ${u.email}`, async ({ page }) => {
       const login = new BankLoginPage(page);
