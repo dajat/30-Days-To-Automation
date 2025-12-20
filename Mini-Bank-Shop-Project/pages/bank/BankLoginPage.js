@@ -1,25 +1,23 @@
 import { expect } from '@playwright/test';
 
 export class BankLoginPage {
-    constructor (page) {
+  /** @param {import('@playwright/test').Page} page */
+  constructor(page) {
     this.page = page;
-    this.loginBtn = page.locator('//a[@href="/login"]');
-    this.email = page.locator('//input[@placeholder="you@example.com"]');
-    this.password = page.locator('//input[@placeholder="Enter your password"]');
-    this.loginPage = page.locator('//button[@type="submit"]');
+    this.email = page.getByRole('textbox', { name: /email/i });
+    this.password = page.getByLabel(/password/i);
+    this.loginBtn = page.getByRole('button', { name: /login/i });
+    this.errorMsg = page.getByText(/invalid|incorrect|error/i); // loose match for failure
+  }
 
-    }
-
-    //Async Go To
-async goto () {
+  async goto() {
     await this.page.goto('https://mini-bank.testamplify.com/login');
     await expect(this.page).toHaveURL(/\/login$/);
-    }
-
-    //Logging Into Bank Account
-async loginPage ({email, password}) {
-        await this.email.fill(email);
-        await this.password.fill(password);
-        await this.login.click()
-    };
   }
+
+  async login({ email, password }) {
+    await this.email.fill(email);
+    await this.password.fill(password);
+    await this.loginBtn.click();
+  }
+}
