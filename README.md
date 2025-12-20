@@ -41,7 +41,7 @@ By the end of these 30 days, I’ll have:
 | ✅ Day 20 | PlayWright | Page Object Model Framework Buildin PlayWright. | ✅ Completed  |
 | ✅ Day 21 | PlayWright | Data Driven Test in PlayWright. | ✅ Completed  |
 | ✅ Day 22 | PlayWright | Alerts, iFrames, and Popups | ✅ Completed |
-| 🔜 Day 21–30 | Coming Soon | Stay Tuned! | Coming Soon! |
+| 🔜 Day 23–30 | Coming Soon | Stay Tuned! | Coming Soon! |
 
 ---
 
