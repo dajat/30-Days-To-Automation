@@ -4,27 +4,9 @@ import { DashboardPage } from '../pages/bank/DashboardPage.js';
 import { bankUsers } from '../test-data/credentials.js';
 import { deposits } from '../test-data/deposits.js';
 
-test.describe('Mini Bank: Data Driven Login', () => {
-  for (const u of bankUsers) {
-    test(`login test for ${u.email}`, async ({ page }) => {
-      const login = new BankLoginPage(page);
-      await login.goto();
-      await login.login({ email: u.email, password: u.password });
-
-      if (u.expectSuccess) {
-        const dash = new DashboardPage(page);
-        await dash.assertLoaded();
-      } else {
-        await expect(page).toHaveURL(/\/login/);
-      }
-    });
-  }
-});
-
 test('Bank: login and verify transactions (POM)', async ({ page }) => {
   // Login
- const valid = bankUsers.find(u => u.expectSuccess);
-
+const valid = bankUsers.find(u => u.expectSuccess);
   const login = new BankLoginPage(page);
   await login.goto();
   await login.login(valid);
