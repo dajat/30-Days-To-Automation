@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
 import { CartPage } from '../pages/shop/CartPage.js';
 
-test('Shop – add to cart and proceed to checkout (POM)', async ({ page }) => {
+test('Adding items to shopping cart', async ({ page }) => {
   // Go to home
   await page.goto('https://mini-shop.testamplify.com/');
   await expect(page).toHaveTitle("Minishop");
