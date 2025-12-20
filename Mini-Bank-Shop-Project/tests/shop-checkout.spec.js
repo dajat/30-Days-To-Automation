@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
-import { CheckoutPage } from '../../pages/shop/CheckoutPage.js';
-import { customers } from '../../test-data/customers.js';
+import { CheckoutPage } from '../pages/shop/CheckoutPage.js';
+import { customers } from '../test-data/customers.js';
 
 test.describe('Shop – Data Driven Checkout', () => {
   test.describe.configure({ mode: 'serial' }); // simple: avoid shared cart conflicts

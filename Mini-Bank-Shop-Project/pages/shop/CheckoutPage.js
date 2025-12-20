@@ -1,5 +1,6 @@
 import { expect } from '@playwright/test';
-import { shopUser } from '../../credentials.js';
+//import { shopUser } from '../../credentials.js';
+import { customers } from '../test-data/customers.js';
 
 export class CheckoutPage {
     constructor (page) {
