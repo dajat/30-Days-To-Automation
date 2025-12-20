@@ -38,7 +38,9 @@ By the end of these 30 days, I’ll have:
 | ✅ Day 17 | PlayWright | Waits & Timeouts in PlayWright. | ✅ Completed |
 | ✅ Day 18 | PlayWright | Screenshots and Videos in PlayWright. | ✅ Completed  |
 | ✅ Day 19 | PlayWright | Page Object Model in PlayWright. | ✅ Completed  |
-| ✅ Day 20 | PlayWright | Page Object Model Framework Build in PlayWright. | ⏳ In Progress  |
+| ✅ Day 20 | PlayWright | Page Object Model Framework Buildin PlayWright. | ✅ Completed  |
+| ✅ Day 21 | PlayWright | Data Driven Test in PlayWright. | ✅ Completed  |
+| ✅ Day 22 | PlayWright | Alerts, iFrames, and Popups | ✅ Completed |
 | 🔜 Day 21–30 | Coming Soon | Stay Tuned! | Coming Soon! |
 
 ---
