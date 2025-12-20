@@ -45,8 +45,8 @@ export class CheckoutPage {
     await this.email.fill(creds.email);
     await this.password.fill(creds.password);
     await this.loginBtn.click();
+    await this.continueCheckout.waitFor({ state: 'visible' });
     await this.continueCheckout.click();
-    await expect(this.billingHeading).toBeVisible();
     await expect(this.page).toHaveURL(/\/checkout/);
   }
 

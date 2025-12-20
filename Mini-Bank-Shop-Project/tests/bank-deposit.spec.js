@@ -5,7 +5,6 @@ import { bankUsers } from '../test-data/credentials.js';
 import { deposits } from '../test-data/deposits.js';
 
 test('Bank: login', async ({ page }) => {
-  // Login
 const valid = bankUsers.find(u => u.expectSuccess);
   const login = new BankLoginPage(page);
   await login.goto();
