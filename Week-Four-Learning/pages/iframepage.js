@@ -4,7 +4,7 @@ export class iframepage {
   constructor(page) {
     this.page = page;
     this.close = page.locator('//button[@class="tox-notification__dismiss tox-button tox-button--naked tox-button--icon"]');
-    this.frame = page.frameLocator('iframe id="mce_0_ifr"');
+    this.frame = page.frameLocator('iframe[id="mce_0_ifr"]');
     this.editortext = this.frame.locator("//p[text()='Your content goes here.']");
     this.header = page.getByRole('heading', { name: 'An iFrame containing the TinyMCE WYSIWYG Editor' });
   }
