@@ -1,7 +1,5 @@
 import { expect } from '@playwright/test';
-
 export class BankLoginPage {
-  /** @param {import('@playwright/test').Page} page */
   constructor(page) {
     this.page = page;
     this.email = page.getByRole('textbox', { name: /email/i });

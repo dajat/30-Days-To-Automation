@@ -4,7 +4,7 @@ export class CartPage {
     constructor (page) {
     this.page = page;
     this.cart = page.locator('//a[@href="/cart"]');
-    this.cartItem = page.locator("[data-testid='cart-item'], .cart-item, text=Add to cart").second();
+    this.cartItem = page.locator("[data-testid='cart-item'], .cart-item, text=Add to cart").nth(1);
     this.checkoutBtn = page.getByRole('button', { name: /continue to checkout/i });
     
     }
