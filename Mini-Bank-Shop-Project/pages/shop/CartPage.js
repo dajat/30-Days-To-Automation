@@ -15,7 +15,7 @@ async openCart(){
     await expect(this.checkoutBtn).toBeVisible;
 }
 
-async assertItemInCart(){
+async addItemInCart(){
     await expect(this.checkoutBtn).toBeEnabled();
 }
 

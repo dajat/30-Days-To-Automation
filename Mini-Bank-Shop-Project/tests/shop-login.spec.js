@@ -10,12 +10,10 @@ test('Adding items to shopping cart', async ({ page }) => {
   const addToCart = page.getByRole('button', { name: /add to cart/i }).first();
   await addToCart.click();
 
-  // Use CartPage
   const cart = new CartPage(page);
   await cart.openCart();
-  await cart.assertItemInCart();
+  await cart.addItemInCart();
   await cart.Checkout();
 
-  // Not logged in? You’ll land on login page first
   await expect(page).toHaveURL(/\/login|\/checkout/);
 });
