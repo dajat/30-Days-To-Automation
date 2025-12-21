@@ -11,9 +11,9 @@ export class DownloadPage {
   }
 
   async downloadFirstFile() {
-    await this.downloadLink.waitFor({ state: 'visible', timeout: 10000 });
+    await this.downloadLink.waitFor({ state: 'visible'});
     const [download] = await Promise.all([
-      this.page.waitForEvent('download', { timeout: 300000 }),
+      this.page.waitForEvent('download'),
       this.downloadLink.click()
     ]);
     
