@@ -1,5 +1,5 @@
 import { test, expect } from '@playwright/test';
-import { AlertsPage } from "../pages/Heroku/AlertsPage";
+import { AlertsPage } from "../pages/AlertsPage";
 
 test('Test All JS Alerts', async ({ page }) => {
   const alerts = new AlertsPage(page);

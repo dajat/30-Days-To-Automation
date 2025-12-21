@@ -1,5 +1,5 @@
 import { test } from '@playwright/test';
-import { iframepage } from '../pages/Heroku/iframepage.js';
+import { iframepage } from '../pages/iframepage.js';
 
 test('Iframe: type inside the editor', async ({ page }) => {
   const iframe = new iframepage(page);
