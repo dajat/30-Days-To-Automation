@@ -1,8 +1,8 @@
 import { test } from '@playwright/test';
-import { entryadpage } from '../pages/EntryAd.js';
+import { EntryAdPage } from '../pages/EntryAd.js';
 
 test('Pop-up (Entry Ad)', async ({ page }) => {
-  const entryAd = new entryadpage(page);
+  const entryAd = new EntryAdPage (page);
   await entryAd.goto();
   await entryAd.openHeader();
   await entryAd.closeHeader();

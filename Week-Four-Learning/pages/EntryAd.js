@@ -1,6 +1,6 @@
 import { expect } from '@playwright/test';
 
-export class entryadpage {
+export class EntryAdPage {
   constructor(page) {
     this.page = page;
     this.close = page.locator("//*[text()='Close']");

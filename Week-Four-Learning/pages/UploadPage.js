@@ -3,9 +3,10 @@ import { expect } from '@playwright/test';
 export class UploadPage {
   constructor(page) {
     this.page = page;
-    this.chooseFile = page.locator('file-upload');
-    this.Uploadbtn = page.locator('//button[@value="Upload"]');
+    this.chooseFile = page.locator('#file-upload');
+    this.Uploadbtn = page.locator('#file-submit');
     this.resultHeader = page.getByRole('heading', {name: 'File Uploaded!'});
+    this.uploadedFiles = page.locator('#uploaded-files');
   }
   
     async goto(){
