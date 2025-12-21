@@ -1,5 +1,5 @@
 import { test, expect } from '@playwright/test';
-import { DownloadPage } from '../../pages/DownloadPage.js';
+import { DownloadPage } from '../../pages/heroku pages/DownloadPage';
 
 test('Download', async ({ page }) => {
   const downloads = new DownloadPage(page);

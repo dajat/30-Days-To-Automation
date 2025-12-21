@@ -1,5 +1,5 @@
 import { test } from '@playwright/test';
-import { UploadPage } from '../../pages/UploadPage.js';
+import { UploadPage } from '../../pages/heroku pages/UploadPage';
 
 test('Upload Files then verify', async ({ page }) => {
   const upload = new UploadPage(page);

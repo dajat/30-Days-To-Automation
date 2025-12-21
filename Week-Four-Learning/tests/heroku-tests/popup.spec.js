@@ -1,5 +1,5 @@
 import { test } from '@playwright/test';
-import { EntryAdPage } from '../pages/EntryAd.js';
+import { EntryAdPage } from '../../pages/heroku pages/EntryAd';
 
 test('Pop-up (Entry Ad)', async ({ page }) => {
   const entryAd = new EntryAdPage (page);
