@@ -10,7 +10,7 @@ To become confident in **automation** by dedicating 30 days to learning, coding,
 
 By the end of these 30 days, I’ll have:
 - A collection of daily coding exercises and projects.
-- Hands-on experience using JavaScript and other tools for automation.
+- Hands-on experience using JavaScript and PlayWright.
 - Improved confidence in web testing, CI/CD, and QA best practices.
 
 ---
@@ -31,17 +31,19 @@ By the end of these 30 days, I’ll have:
 | ✅ Day 10 | Event Handling | Interacting with webpages to respond. | ✅ Completed  |
 | ✅ Day 11 | Modern JavaScript (ES6+) | Understanding the modern Javascript syntax for shorter and cleaner code. | ✅ Completed |
 | ✅ Day 12 | PlayWright | Installation and Setup of PlayWright. | ✅ Completed |
-| ✅ Day 13 | PlayWright | Finding locators and selectors in PlayWright. | ✅ Completed  |
-| ✅ Day 14 | Project 1 Kickoff | Setup the structure for my automation project with PlayWright. | ✅ Completed  |
-| ✅ Day 15 | PlayWright | Mastering navigation and assertions in PlayWright. | ✅ Completed  |
-| ✅ Day 16 | PlayWright | Working with forms in PlayWright. | ✅ Completed  |
-| ✅ Day 17 | PlayWright | Waits & Timeouts in PlayWright. | ✅ Completed |
-| ✅ Day 18 | PlayWright | Screenshots and Videos in PlayWright. | ✅ Completed  |
-| ✅ Day 19 | PlayWright | Page Object Model in PlayWright. | ✅ Completed  |
-| ✅ Day 20 | PlayWright | Page Object Model Framework Buildin PlayWright. | ✅ Completed  |
-| ✅ Day 21 | PlayWright | Data Driven Test in PlayWright. | ✅ Completed  |
+| ✅ Day 13 | PlayWright | Finding locators and selectors. | ✅ Completed  |
+| ✅ Day 14 | Project 1 Kickoff | Setup the structure for my automation project in PlayWright. | ✅ Completed  |
+| ✅ Day 15 | PlayWright | Mastering navigation and assertions. | ✅ Completed  |
+| ✅ Day 16 | PlayWright | Working with forms. | ✅ Completed  |
+| ✅ Day 17 | PlayWright | Waits & Timeouts. | ✅ Completed |
+| ✅ Day 18 | PlayWright | Screenshots and Videos. | ✅ Completed  |
+| ✅ Day 19 | PlayWright | Page Object Model. | ✅ Completed  |
+| ✅ Day 20 | PlayWright | Page Object Model Framework Building. | ✅ Completed  |
+| ✅ Day 21 | PlayWright | Data Driven Testing. | ✅ Completed  |
 | ✅ Day 22 | PlayWright | Alerts, iFrames, and Popups | ✅ Completed |
-| 🔜 Day 23–30 | Coming Soon | Stay Tuned! | Coming Soon! |
+| ✅ Day 23 | PlayWright | File Uploads and Downloads | ✅ Completed |
+| ✅ Day 24 | PlayWright | Structuring API tests | ✅ Completed |
+| 🔜 Day 25–30 | Coming Soon | Stay Tuned! | Coming Soon! |
 
 ---
 
@@ -67,7 +69,7 @@ By the end of these 30 days, I’ll have:
 
 ## 🌟 How to Follow Along
 
-You can follow this journey right here on GitHub — I’ll update my progress daily.
+You can follow this journey right here on GitHub.
 
 📬 If you’re also in QA or automation, let’s connect and grow together.
 
