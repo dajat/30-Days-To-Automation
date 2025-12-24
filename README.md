@@ -43,7 +43,9 @@ By the end of these 30 days, I’ll have:
 | ✅ Day 22 | PlayWright | Alerts, iFrames, and Popups | ✅ Completed |
 | ✅ Day 23 | PlayWright | File Uploads and Downloads | ✅ Completed |
 | ✅ Day 24 | PlayWright | Structuring API tests | ✅ Completed |
-| 🔜 Day 25–30 | Coming Soon | Stay Tuned! | Coming Soon! |
+| ✅ Day 25 | PlayWright | Cross-Browser and Parallel Testing | ✅ Completed |
+| ✅ Day 26 | PlayWright | CI/CD Integration with Github Workflows | ✅ Completed |
+| 🔜 Day 27–30 | Coming Soon | Stay Tuned! | Coming Soon! |
 
 ---
 
